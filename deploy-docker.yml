@@ -1,5 +1,5 @@
 ---
-- hosts: dev
+- hosts: tomcat
   become: True
   tasks:
     - name: Install python pip
